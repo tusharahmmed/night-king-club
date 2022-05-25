@@ -1,4 +1,4 @@
-# [Night King Club](https://architbuilders.netlify.app)                         
+# Night King Club          
 
 A NFT fully responsive web application using `React.js`
 
@@ -6,7 +6,7 @@ A NFT fully responsive web application using `React.js`
 
 
 ## Live Preview
-[Click HERE]()
+[Click HERE](https://night-king-club.netlify.app/)
 
 
 

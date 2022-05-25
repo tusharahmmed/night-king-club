@@ -3,25 +3,21 @@ import './TeamVision.css';
 import styled from 'styled-components';
 import { device } from '../../../constants/ScreenSize';
 import videoThumb from '../../../images/video.png';
-import ModalVideo from 'react-modal-video';
-import '../../../../node_modules/react-modal-video/scss/modal-video.scss';
+
 
 
 const TeamVision = () => {
-
-    const [isOpen, setOpen] = useState(false);
 
     return (
         <VisionContainer className='section-padding vision'>
 
             <Title><span>It’s Time</span> to Transform Your <span>Dream Life</span> into <span>Reality</span></Title>
-            <VideoThumb onClick={() => setOpen(true)}>
+            <VideoThumb>
                 <img src={videoThumb} alt="" />
             </VideoThumb>
             <Description>Are you ready to have unforgettable experiences alongside the stunning models, crypto whales, and elite businessmen? <br /> It’s time to start living life as if you’re in a movie.</Description>
             <Button>Elevate Your Life. Get Your NKG Clubber NFT NOW</Button>
 
-            <ModalVideo channel='vimeo' autoplay isOpen={isOpen} videoId="560339606" onClose={() => setOpen(false)} />
         </VisionContainer>
     );
 };
