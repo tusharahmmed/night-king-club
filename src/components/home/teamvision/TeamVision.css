@@ -1,0 +1,7 @@
+
+.vision{
+    background-image: url(../../../images/gradient/01.png), url(../../../images/gradient/02.png);
+    background-position: top 25% left, right 10% bottom 20%;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 1000px, 600px ;
+  }

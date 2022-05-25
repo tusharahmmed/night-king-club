@@ -1,0 +1,17 @@
+.testimonial .swiper-pagination-bullet{
+background: #A5A5A5 ;
+opacity: 1 !important;
+}
+
+.testimonial .swiper-pagination-bullet-active{
+    background: linear-gradient(180deg, #FFC603 0%, #FF7C00 100%);
+    width: 15px;
+    height: 15px;
+
+}
+
+.swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

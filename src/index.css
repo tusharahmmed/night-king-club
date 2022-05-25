@@ -1,13 +1,53 @@
-body {
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: BrownStd;
+  src: url(fonts/BrownStd-Bold.ttf);
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+  color: var(--font-color);
+  background-color: var(--section-bg);
+}
+
+:root {
+  --theme-color: #FFC508;
+  --font-color: #ffffff;
+  --section-bg: #0D0527;
+  --title-font: BrownStd;
+}
+
+/* common class */
+.section-padding{
+  padding-left: 6rem;
+  padding-right: 6rem;
+}
+
+
+a{
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1200px) {
+  .section-padding{
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .section-padding{
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+@media screen and (max-width: 700px) {
+  .section-padding{
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
 }
